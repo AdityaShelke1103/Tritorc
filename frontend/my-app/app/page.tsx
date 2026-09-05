@@ -18,7 +18,7 @@ interface ScanResponse {
   results: ScanResult[];
 }
 
-const API_URL = "http://localhost:5000/api/scan";
+const API_URL = "https://tritorc-tau.vercel.app/api/scan";
 
 export default function Home() {
   const [files, setFiles] = useState<File[]>([]);
